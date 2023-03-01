@@ -1,44 +1,71 @@
-import React from 'react'
-import Layout from "../components/App/Layout"
-import Navbar from "../components/App/Navbar"
-import PageBanner from '../components/Common/PageBanner'
-import Footer from "../components/App/Footer"
-import {Link} from 'gatsby'
-import gallery1 from '../assets/images/gallery/gallery1.jpg'
-import gallery2 from '../assets/images/gallery/gallery2.jpg'
-import gallery3 from '../assets/images/gallery/gallery3.jpg'
-import gallery4 from '../assets/images/gallery/gallery4.jpg'
-import gallery5 from '../assets/images/gallery/gallery5.jpg'
-import gallery6 from '../assets/images/gallery/gallery6.jpg'
-import gallery7 from '../assets/images/gallery/gallery7.jpg'
-import gallery8 from '../assets/images/gallery/gallery8.jpg'
-import gallery9 from '../assets/images/gallery/gallery9.jpg'
-import Lightbox from 'react-image-lightbox'
+import React from 'react';
+import Layout from "../components/App/Layout";
+import Navbar from "../components/App/Navbar";
+import PageBanner from '../components/Common/PageBanner';
+import Footer from "../components/App/Footer";
+import { Link } from 'gatsby';
+import ImageGallery from 'react-image-gallery';
+import "react-image-gallery/styles/css/image-gallery.css";
+import gallery1 from '../assets/images/gallery/gallery1.jpg';
+import gallery2 from '../assets/images/gallery/gallery2.jpg';
+import gallery3 from '../assets/images/gallery/gallery3.jpg';
+import gallery4 from '../assets/images/gallery/gallery4.jpg';
+import gallery5 from '../assets/images/gallery/gallery5.jpg';
+import gallery6 from '../assets/images/gallery/gallery6.jpg';
+import gallery7 from '../assets/images/gallery/gallery7.jpg';
+import gallery8 from '../assets/images/gallery/gallery8.jpg';
+import gallery9 from '../assets/images/gallery/gallery9.jpg';
 
 const images = [
-    (gallery1),
-    (gallery2),
-    (gallery3),
-    (gallery4),
-    (gallery5),
-    (gallery6),
-    (gallery7),
-    (gallery8),
-    (gallery9),
+    {
+        original: gallery1,
+        thumbnail: gallery1,
+    },
+    {
+        original: gallery2,
+        thumbnail: gallery2,
+    },
+    {
+        original: gallery3,
+        thumbnail: gallery3,
+    },
+    {
+        original: gallery4,
+        thumbnail: gallery4,
+    },
+    {
+        original: gallery5,
+        thumbnail: gallery5,
+    },
+    {
+        original: gallery6,
+        thumbnail: gallery6,
+    },
+    {
+        original: gallery7,
+        thumbnail: gallery7,
+    },
+    {
+        original: gallery8,
+        thumbnail: gallery8,
+    },
+    {
+        original: gallery9,
+        thumbnail: gallery9,
+    },
 ];
 
 const Gallery = () => {
-    const [photoIndex, setPhotoIndex] = React.useState(0);
-    const [isOpenImage, setIsOpenImage] = React.useState(false);
+    const [currentIndex, setCurrentIndex] = React.useState(0);
 
     return (
         <Layout>
             <Navbar />
             <PageBanner
-                pageTitle="Gallery" 
-                homePageText="Home" 
-                homePageUrl="/" 
-                activePageText="Gallery" 
+                pageTitle="Gallery"
+                homePageText="Home"
+                homePageUrl="/"
+                activePageText="Gallery"
             />
 
             <div className="gallery-area pt-100 pb-70">
@@ -46,13 +73,12 @@ const Gallery = () => {
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-gallery-item">
-                                <Link 
+                                <Link
                                     to="#"
-                                    onClick={e => {
-                                        e.preventDefault(); 
-                                        setIsOpenImage(true); 
-                                        setPhotoIndex(0);}
-                                    }
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        setCurrentIndex(0);
+                                    }}
                                 >
                                     <img src={gallery1} alt="event" />
                                 </Link>
@@ -61,13 +87,12 @@ const Gallery = () => {
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-gallery-item">
-                                <Link 
+                                <Link
                                     to="#"
-                                    onClick={e => {
-                                        e.preventDefault(); 
-                                        setIsOpenImage(true); 
-                                        setPhotoIndex(1);}
-                                    }
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        setCurrentIndex(1);
+                                    }}
                                 >
                                     <img src={gallery2} alt="event" />
                                 </Link>
@@ -76,88 +101,77 @@ const Gallery = () => {
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-gallery-item">
-                                <Link 
+                                <Link
                                     to="#"
-                                    onClick={e => {
-                                        e.preventDefault(); 
-                                        setIsOpenImage(true); 
-                                        setPhotoIndex(2);}
-                                    }
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        setCurrentIndex(2);
+                                    }}
                                 >
                                     <img src={gallery3} alt="event" />
                                 </Link>
                             </div>
                         </div>
-
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-gallery-item">
-                                <Link 
+                                <Link
                                     to="#"
-                                    onClick={e => {
-                                        e.preventDefault(); 
-                                        setIsOpenImage(true); 
-                                        setPhotoIndex(3);}
-                                    }
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        setCurrentIndex(3);
+                                    }}
                                 >
                                     <img src={gallery4} alt="event" />
                                 </Link>
                             </div>
                         </div>
-
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-gallery-item">
-                                <Link 
+                                <Link
                                     to="#"
-                                    onClick={e => {
-                                        e.preventDefault(); 
-                                        setIsOpenImage(true); 
-                                        setPhotoIndex(4);}
-                                    }
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        setCurrentIndex(4);
+                                    }}
                                 >
                                     <img src={gallery5} alt="event" />
                                 </Link>
                             </div>
                         </div>
-
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-gallery-item">
-                                <Link 
+                                <Link
                                     to="#"
-                                    onClick={e => {
-                                        e.preventDefault(); 
-                                        setIsOpenImage(true); 
-                                        setPhotoIndex(5);}
-                                    }
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        setCurrentIndex(5);
+                                    }}
                                 >
                                     <img src={gallery6} alt="event" />
                                 </Link>
                             </div>
                         </div>
-
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-gallery-item">
-                                <Link 
+                                <Link
                                     to="#"
-                                    onClick={e => {
-                                        e.preventDefault(); 
-                                        setIsOpenImage(true); 
-                                        setPhotoIndex(6);}
-                                    }
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        setCurrentIndex(6);
+                                    }}
                                 >
                                     <img src={gallery7} alt="event" />
                                 </Link>
                             </div>
                         </div>
-
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-gallery-item">
-                                <Link 
+                                <Link
                                     to="#"
-                                    onClick={e => {
-                                        e.preventDefault(); 
-                                        setIsOpenImage(true); 
-                                        setPhotoIndex(7);}
-                                    }
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        setCurrentIndex(7);
+                                    }}
                                 >
                                     <img src={gallery8} alt="event" />
                                 </Link>
@@ -166,13 +180,12 @@ const Gallery = () => {
 
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-gallery-item">
-                                <Link 
+                                <Link
                                     to="#"
-                                    onClick={e => {
-                                        e.preventDefault(); 
-                                        setIsOpenImage(true); 
-                                        setPhotoIndex(8);}
-                                    }
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        setCurrentIndex(8);
+                                    }}
                                 >
                                     <img src={gallery9} alt="event" />
                                 </Link>
@@ -181,26 +194,21 @@ const Gallery = () => {
                     </div>
                 </div>
 
-                {/* Lightbox */}
-                {isOpenImage && (
-                    <Lightbox
-                        mainSrc={images[photoIndex]}
-                        nextSrc={images[(photoIndex + 1) % images.length]}
-                        prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-                        onCloseRequest={() => setIsOpenImage(false)}
-                        onMovePrevRequest={() =>
-                            setPhotoIndex((photoIndex + images.length - 1) % images.length)
-                        }
-                        onMoveNextRequest={() =>
-                            setPhotoIndex((photoIndex + 1) % images.length)
-                        }
-                    />
-                )}
+                {/* Image Gallery */}
+                <ImageGallery
+                    items={images}
+                    thumbnailPosition="bottom"
+                    showPlayButton={false}
+                    showFullscreenButton={false}
+                    showBullets={true}
+                    startIndex={currentIndex}
+                    onSlide={(index) => setCurrentIndex(index)}
+                />
             </div>
-            
+
             <Footer />
         </Layout>
     );
-}
+};
 
-export default Gallery
+export default Gallery;
