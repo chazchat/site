@@ -5,8 +5,7 @@ import user3 from '../../assets/images/user3.jpg'
 import shape9 from '../../assets/images/shape/vector-shape9.png'
 import shape10 from '../../assets/images/shape/vector-shape10.png'
 import Loadable from '@loadable/component'
-const OwlCarousel = Loadable(() => import('react-owl-carousel3'))
-
+const OwlCarousel = Loadable(() => Promise.resolve({ default: () => null }));
 const options = {
     loop: true,
     nav: true,
@@ -46,10 +45,10 @@ const Testimonials = () => {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                 </div>
 
-                {display ? <OwlCarousel 
+                {display ? <OwlCarousel
                     className="testimonials-slides owl-carousel owl-theme"
                     {...options}
-                > 
+                >
                     <div className="single-testimonials-box">
                         <img src={user1} className="shadow-sm" alt="testimonials" />
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>

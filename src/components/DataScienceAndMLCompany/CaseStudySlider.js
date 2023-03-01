@@ -4,8 +4,7 @@ import starIcon from '../../assets/images/star-icon.png'
 import study1 from '../../assets/images/case-study/case-study1.jpg'
 import study2 from '../../assets/images/case-study/case-study2.jpg'
 import Loadable from '@loadable/component'
-const OwlCarousel = Loadable(() => import('react-owl-carousel3'))
-
+const OwlCarousel = Loadable(() => Promise.resolve({ default: () => null }));
 const options = {
     loop: true,
     nav: true,
@@ -28,17 +27,17 @@ const CaseStudySlider = () => {
 
     return (
         <div className="case-study-area bg-fffbf5">
-            {display ? <OwlCarousel 
+            {display ? <OwlCarousel
                 className="case-study-slides owl-carousel owl-theme"
                 {...options}
-            > 
+            >
                 <div className="single-case-study-item ptb-100">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12">
                                 <div className="case-study-content">
                                     <span className="sub-title">
-                                        <img src={starIcon} alt="banner" /> 
+                                        <img src={starIcon} alt="banner" />
                                         Case study #1
                                     </span>
                                     <h2>Data Science in Pharmaceutical Industries</h2>
@@ -46,7 +45,7 @@ const CaseStudySlider = () => {
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
 
                                     <Link to="/case-studies-details" className="default-btn">
-                                        <i className="flaticon-view"></i> 
+                                        <i className="flaticon-view"></i>
                                         Details More <span></span>
                                     </Link>
                                 </div>
@@ -69,15 +68,15 @@ const CaseStudySlider = () => {
                             <div className="col-lg-6 col-md-12">
                                 <div className="case-study-content">
                                     <span className="sub-title">
-                                        <img src={starIcon} alt="banner" /> 
+                                        <img src={starIcon} alt="banner" />
                                         Case study #2
                                     </span>
                                     <h2>Mathematics, Advanced Statistics in Python</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                                    
+
                                     <Link to="/case-studies-details" className="default-btn">
-                                        <i className="flaticon-view"></i> 
+                                        <i className="flaticon-view"></i>
                                         Details More <span></span>
                                     </Link>
                                 </div>

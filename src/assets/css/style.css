@@ -5104,6 +5104,7 @@ Why Choose Us Area CSS
 Case Study Area CSS
 =================================================*/
 .case-study-area {
+  padding: 40px;
   position: relative;
   z-index: 1;
 }

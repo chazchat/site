@@ -3,8 +3,7 @@ import {Link} from 'gatsby'
 import starIcon from '../../assets/images/star-icon.png'
 import caseStudy1 from '../../assets/images/case-study/case-study1.jpg'
 import Loadable from '@loadable/component'
-const OwlCarousel = Loadable(() => import('react-owl-carousel3'))
-
+const OwlCarousel = Loadable(() => Promise.resolve({ default: () => null }));
 const options = {
     loop: true,
     nav: true,
@@ -27,17 +26,17 @@ const CaseStudy = () => {
 
     return (
         <div className="case-study-area bg-fffbf5">
-            {display ? <OwlCarousel 
+            {display ? <OwlCarousel
                 className="case-study-slides owl-carousel owl-theme"
                 {...options}
-            > 
+            >
                 <div className="single-case-study-item ptb-100">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12">
                                 <div className="case-study-content">
                                     <span className="sub-title">
-                                        <img src={starIcon} alt="case-study" /> 
+                                        <img src={starIcon} alt="case-study" />
                                         Case study #1
                                     </span>
                                     <h2>Data Science in Pharmaceutical Industries</h2>
@@ -69,7 +68,7 @@ const CaseStudy = () => {
                             <div className="col-lg-6 col-md-12">
                                 <div className="case-study-content">
                                     <span className="sub-title">
-                                        <img src={starIcon} alt="case-study" /> 
+                                        <img src={starIcon} alt="case-study" />
                                         Case study #2
                                     </span>
                                     <h2>Mathematics, Advanced Statistics in Python</h2>
