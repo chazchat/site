@@ -28,7 +28,7 @@ const ContactInfo = () => {
                             </div>
                             <h3>Contact</h3>
                             <p>Mobile: <a href="tel:+44457895789">(+44) - 45789 - 5789</a></p>
-                            <p>E-mail: <a href="mailto:hello@rewy.com">hello@rewy.com</a></p>
+                            <p>E-mail: <a href="mailto:jipichat2023@gmail.com">jipichat2023@gmail.com</a></p>
                         </div>
                     </div>
 

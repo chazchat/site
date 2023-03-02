@@ -62,7 +62,7 @@ const Testimonials = () => {
                                 <img src={client1} alt="features" />
                                 <div className="title">
                                     <h3>Alex Maxwell</h3>
-                                    <span>CEO at EnvyTheme</span>
+                                    <span>CEO at ChazChat</span>
                                 </div>
                             </div>
                         </div>

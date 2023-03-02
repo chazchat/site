@@ -39,7 +39,7 @@ const Testimonials = () => {
     }, [])
 
     return (
-        <div className="testimonials-area pt-100 bg-f1f8fb">
+        <div className="testimonials-area bg-f1f8fb">
             <div className="container">
                 <div className="section-title">
                     <span className="sub-title">
@@ -62,7 +62,7 @@ const Testimonials = () => {
                                 <img src={client1} alt="testimonial" />
                                 <div className="title">
                                     <h3>Alex Maxwell</h3>
-                                    <span>CEO at EnvyTheme</span>
+                                    <span>CEO at ChazChat</span>
                                 </div>
                             </div>
                         </div>
@@ -111,4 +111,4 @@ const Testimonials = () => {
     )
 }
 
-export default Testimonials;
+export default Testimonials

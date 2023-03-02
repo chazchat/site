@@ -55,8 +55,8 @@ const Testimonials = () => {
 
                         <div className="client-info">
                             <div className="title">
-                                <h3>Alex Maxwell</h3>
-                                <span>CEO at EnvyTheme</span>
+                                <h3>Pedro Alvarado</h3>
+                                <span>Founder at ChazChat</span>
                             </div>
                         </div>
                     </div>

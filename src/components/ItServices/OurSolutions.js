@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import {Link} from 'gatsby'
 import starIcon from '../../assets/images/star-icon.png'
 
 const OurSolutions = () => {
@@ -8,7 +8,7 @@ const OurSolutions = () => {
             <div className="container">
                 <div className="section-title">
                     <span className="sub-title">
-                        <img src={starIcon} alt="icon" /> 
+                        <img src={starIcon} alt="star" /> 
                         Our Solutions
                     </span>
                     <h2>We Different From Others Should Choose Us</h2>
@@ -23,10 +23,10 @@ const OurSolutions = () => {
                             </div>
                             <h3>
                                 <Link to="/service-details">
-                                    Startup Applications
+                                    Code Security
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna adipiscing aliqua.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
 
                             <Link to="/service-details" className="view-details-btn">
                                 View Details
@@ -39,12 +39,14 @@ const OurSolutions = () => {
                             <div className="icon">
                                 <i className="flaticon-laptop"></i>
                             </div>
+
                             <h3>
                                 <Link to="/service-details">
-                                    SaaS Solutions
+                                    Team Management
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna adipiscing aliqua.</p>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
                             
                             <Link to="/service-details" className="view-details-btn">
                                 View Details
@@ -57,12 +59,14 @@ const OurSolutions = () => {
                             <div className="icon">
                                 <i className="flaticon-money"></i>
                             </div>
+
                             <h3>
                                 <Link to="/service-details">
-                                    E-Commerce Platforms
+                                    Access Controlled
                                 </Link>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna adipiscing aliqua.</p>
+                            </h3> 
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
                             
                             <Link to="/service-details" className="view-details-btn">
                                 View Details
@@ -75,4 +79,4 @@ const OurSolutions = () => {
     )
 }
 
-export default OurSolutions
+export default OurSolutions;

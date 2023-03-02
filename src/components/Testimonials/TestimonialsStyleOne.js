@@ -10,7 +10,7 @@ const TestimonialsStyleOne = () => {
             <div className="container">
                 <div className="section-title">
                     <span className="sub-title">
-                        <img src={starIcon} alt="about" /> 
+                        <img src={starIcon} alt="about" />
                         Testimonials
                     </span>
                     <h2>What Our Clients are Saying?</h2>
@@ -26,7 +26,7 @@ const TestimonialsStyleOne = () => {
                                     <img src={client1} alt="about" />
                                     <div className="title">
                                         <h3>Alex Maxwell</h3>
-                                        <span>CEO at EnvyTheme</span>
+                                        <span>CEO at ChazChat</span>
                                     </div>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@ const TestimonialsStyleOne = () => {
                                     <img src={client1} alt="about" />
                                     <div className="title">
                                         <h3>Alex Maxwell</h3>
-                                        <span>CEO at EnvyTheme</span>
+                                        <span>CEO at ChazChat</span>
                                     </div>
                                 </div>
                             </div>

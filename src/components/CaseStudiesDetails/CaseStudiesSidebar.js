@@ -10,7 +10,7 @@ const CaseStudiesSidebar = () => {
                             <i className='bx bx-user-pin'></i>
                         </div>
                         <span>Client:</span>
-                        <a href="https://envytheme.com/" target="_blank" rel="noreferrer">EnvyTheme.com</a>
+                        <a href="https://chazchat.netlify.app/" target="_blank" rel="noreferrer">ChazChat.com</a>
                         <a href="https://themeforest.net/" target="_blank" rel="noreferrer">ThemeForest.com</a>
                     </li>
                     <li>
@@ -39,7 +39,7 @@ const CaseStudiesSidebar = () => {
                             <i className='bx bx-globe'></i>
                         </div>
                         <span>Website:</span>
-                        <a href="https://envytheme.com/" target="_blank" rel="noreferrer">EnvyTheme.com</a>
+                        <a href="https://envytheme.com/" target="_blank" rel="noreferrer">ChazChat.com</a>
                     </li>
                 </ul>
             </div>

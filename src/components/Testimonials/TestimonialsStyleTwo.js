@@ -11,7 +11,7 @@ const TestimonialsStyleTwo = () => {
             <div className="container">
                 <div className="section-title">
                     <span className="sub-title">
-                        <img src={starIcon} alt="about" /> 
+                        <img src={starIcon} alt="about" />
                         Testimonials
                     </span>
                     <h2>What Our Clients are Saying?</h2>
@@ -25,7 +25,7 @@ const TestimonialsStyleTwo = () => {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
                             <div className="client-info">
                                 <h3>Alex Maxwell</h3>
-                                <span>CEO at EnvyTheme</span>
+                                <span>CEO at ChazChat</span>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ const TestimonialsStyleTwo = () => {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
                             <div className="client-info">
                                 <h3>Alex Maxwell</h3>
-                                <span>CEO at EnvyTheme</span>
+                                <span>CEO at ChazChat</span>
                             </div>
                         </div>
                     </div>
