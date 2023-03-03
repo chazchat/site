@@ -3,7 +3,7 @@ import ReactWOW from 'react-wow'
 
 import { Link } from 'gatsby'
 // import BotAgent from '../../assets/svgs/chat-bot-animate.svg';
-// import {ReactComponent as BotAgent} from '../../assets/svgs/chat-bot-animate.svg';
+import { ReactComponent as BotAgent } from '../../assets/svgs/chat-bot.svg';
 
 import Loadable from '@loadable/component'
 const ModalVideo = Loadable(() => import('react-modal-video'))
@@ -60,7 +60,7 @@ const MainBanner = () => {
 
                         <div className="col-lg-7 col-md-12">
                             <div className="banner">
-                                {/* <BotAgent /> */}
+                                <BotAgent />
                             </div>
                         </div>
                     </div>
