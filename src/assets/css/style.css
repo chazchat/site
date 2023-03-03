@@ -1065,8 +1065,8 @@ Main Banner Area CSS
   background-position: bottom center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 365px;
-  padding-bottom: 350px;
+  padding-top: 80px;
+  padding-bottom: 145px;
 }
 
 .main-banner .container-fluid {
@@ -1083,7 +1083,7 @@ Main Banner Area CSS
 }
 
 .main-banner-content {
-  margin-top: -50px;
+  margin-top: 250px;
 }
 
 .main-banner-content h1 {

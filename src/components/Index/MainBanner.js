@@ -2,29 +2,16 @@ import React from 'react'
 import ReactWOW from 'react-wow'
 
 import { Link } from 'gatsby'
-import img1 from '../../assets/images/main-banner/banner-one/banner-one-shape1.png'
-import chatbot from '../../assets/images/main-banner/banner-one/banner-one-shape1.png'
-import img2 from '../../assets/images/main-banner/banner-one/banner-one-shape2.png'
-import img3 from '../../assets/images/main-banner/banner-one/banner-one-shape3.png'
-import img4 from '../../assets/images/main-banner/banner-one/banner-one-shape4.png'
-import img5 from '../../assets/images/main-banner/banner-one/banner-one-shape5.png'
-import img6 from '../../assets/images/main-banner/banner-one/banner-one-shape6.png'
-import img7 from '../../assets/images/main-banner/banner-one/banner-one-shape7.png'
-import img8 from '../../assets/images/main-banner/banner-one/banner-one-shape8.png'
-import img9 from '../../assets/images/main-banner/banner-one/banner-one-shape9.png'
-import img10 from '../../assets/images/main-banner/banner-one/banner-one-shape10.png'
-import img11 from '../../assets/images/main-banner/banner-one/banner-one-shape11.png'
-import img12 from '../../assets/images/main-banner/banner-one/banner-one-shape12.png'
-import img13 from '../../assets/images/main-banner/banner-one/banner-one-main-img.png'
+import BotAgent from '../../assets/images/dummy-chat/chat-bot-animate.svg';
 
 import Loadable from '@loadable/component'
 const ModalVideo = Loadable(() => import('react-modal-video'))
 
 const MainBanner = () => {
     const [isOpen, setIsOpen] = React.useState(true);
-    const openModal = () => {
-        setIsOpen(!isOpen);
-    }
+    // const openModal = () => {
+    //     setIsOpen(!isOpen);
+    // }
     return (
         <React.Fragment>
             {/* If you want to change the video need to update videoID */}
@@ -71,9 +58,8 @@ const MainBanner = () => {
                         </div>
 
                         <div className="col-lg-7 col-md-12">
-                            <div className="main-banner-animation-image">
-
-
+                            <div className="banner">
+                                <BotAgent />
                             </div>
                         </div>
                     </div>
