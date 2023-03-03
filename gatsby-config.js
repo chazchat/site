@@ -18,14 +18,14 @@ module.exports = {
         lang: 'zxx'
       }
     },
-    {
-      resolve: "gatsby-plugin-react-svg",
-      options: {
-        rule: {
-          include: /\.svg$/,
-          omitKeys: ['xmlnsDc', 'xmlnsCc', 'xmlnsRdf', 'xmlnsSvg', 'xmlnsSodipodi', 'xmlnsInkscape', 'xmlnsSvgjs']
-        }
-      }
-    }
+    // {
+    //   resolve: "gatsby-plugin-react-svg",
+    //   options: {
+    //     rule: {
+    //       include: /\.svg$/,
+    //       omitKeys: ['xmlnsDc', 'xmlnsCc', 'xmlnsRdf', 'xmlnsSvg', 'xmlnsSodipodi', 'xmlnsInkscape', 'xmlnsSvgjs']
+    //     }
+    //   }
+    // }
   ],
 }
