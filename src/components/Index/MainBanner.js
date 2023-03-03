@@ -3,6 +3,7 @@ import ReactWOW from 'react-wow'
 
 import { Link } from 'gatsby'
 // import BotAgent from '../../assets/svgs/chat-bot-animate.svg';
+// import {ReactComponent as BotAgent} from '../../assets/svgs/chat-bot-animate.svg';
 
 import Loadable from '@loadable/component'
 const ModalVideo = Loadable(() => import('react-modal-video'))
