@@ -3,11 +3,7 @@ import {Link} from 'gatsby'
 import starIcon from '../../assets/images/star-icon.png'
 import caseStudy1 from '../../assets/images/case-study/case-study1.jpg'
 
-// import Loadable from '@loadable/component'
-// const OwlCarousel = Loadable(() => Promise.resolve({ default: () => null }));
 import Slider from 'react-slick'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
 
 const options = {
     loop: true,
