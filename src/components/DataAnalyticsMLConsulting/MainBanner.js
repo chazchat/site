@@ -20,14 +20,14 @@ const MainBanner = () => {
                     <ReactWOW delay='.1s' animation='fadeInRight'>
                         <div className="banner-btn">
                             <Link to="/contact" className="default-btn">
-                                <i className="flaticon-web"></i> 
+                                <i className="flaticon-web"></i>
                                 Work With Us <span></span>
                             </Link>
                         </div>
                     </ReactWOW>
 
                     <ReactWOW delay='.1s' animation='fadeInUp'>
-                        <img src={MainImage} alt="image" />
+                        <img src={MainImage} alt="" />
                     </ReactWOW>
                 </div>
             </div>

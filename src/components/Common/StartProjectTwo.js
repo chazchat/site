@@ -11,7 +11,7 @@ const StartProjectTwo = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">
                         <div className="project-start-image">
-                            <img src={ProjectStart1} alt="image" />
+                            <img src={ProjectStart1} alt="" />
                         </div>
                     </div>
 
@@ -19,10 +19,10 @@ const StartProjectTwo = () => {
                         <div className="project-start-content">
                             <h2>We Like to Start Your Project With Us</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                            
+
                             <Link to="/contact" className="default-btn">
-                                <i className="flaticon-web"></i> 
-                                Get Started 
+                                <i className="flaticon-web"></i>
+                                Get Started
                                 <span></span>
                             </Link>
                         </div>
@@ -31,7 +31,7 @@ const StartProjectTwo = () => {
             </div>
 
             <div className="circle-shape1">
-                <img src={CircleShape} alt="image" />
+                <img src={CircleShape} alt="" />
             </div>
         </div>
     )

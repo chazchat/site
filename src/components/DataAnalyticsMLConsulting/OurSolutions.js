@@ -9,7 +9,7 @@ const OurSolutions = () => {
             <div className="container">
                 <div className="section-title">
                     <span className="sub-title">
-                        <img src={StarIcon} alt="image" /> 
+                        <img src={StarIcon} alt="" />
                         Our Solutions
                     </span>
                     <h2>We Different From Others Should Choose Us</h2>
@@ -48,7 +48,7 @@ const OurSolutions = () => {
                             </h3>
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                            
+
                             <Link to="/service-details" className="view-details-btn">
                                 View Details
                             </Link>
@@ -65,10 +65,10 @@ const OurSolutions = () => {
                                 <Link to="/service-details">
                                     eCommerce Platforms
                                 </Link>
-                            </h3> 
+                            </h3>
 
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                            
+
                             <Link to="/service-details" className="view-details-btn">
                                 View Details
                             </Link>

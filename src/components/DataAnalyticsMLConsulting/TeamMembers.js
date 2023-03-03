@@ -13,7 +13,7 @@ const TeamMembers = () => {
             <div className="container">
                 <div className="section-title">
                     <span className="sub-title">
-                        <img src={StarIcon} alt="image" /> 
+                        <img src={StarIcon} alt="" />
                         Team Members
                     </span>
                     <h2>Our Data Scientist</h2>
@@ -64,7 +64,7 @@ const TeamMembers = () => {
                             <div className="content">
                                 <h3>Kirk Borne</h3>
                                 <span>Data Scientist</span>
-                                
+
                                 <ul className="social">
                                     <li>
                                         <Link to="https://www.facebook.com/" className="d-block" target="_blank" rel="noreferrer">
@@ -99,7 +99,7 @@ const TeamMembers = () => {
                             <div className="content">
                                 <h3>Carla Gentry</h3>
                                 <span>Analytical Solutions</span>
-                                
+
                                 <ul className="social">
                                     <li>
                                         <Link to="https://www.facebook.com/" className="d-block" target="_blank" rel="noreferrer">
@@ -134,7 +134,7 @@ const TeamMembers = () => {
                             <div className="content">
                                 <h3>Marie Curie</h3>
                                 <span>Data Scientist</span>
-                                
+
                                 <ul className="social">
                                     <li>
                                         <Link to="https://www.facebook.com/" className="d-block" target="_blank" rel="noreferrer">

@@ -15,7 +15,7 @@ const Services = () => {
             <div className="container">
                 <div className="section-title">
                     <span className="sub-title">
-                        <img src={StarIcon} alt="image" /> 
+                        <img src={StarIcon} alt="" />
                         Our Services
                     </span>
                     <h2>We Offer Professional Solutions For Business</h2>
@@ -52,13 +52,13 @@ const Services = () => {
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                            
+
                             <Link to="/service-details" className="read-more-btn">
                                 Read More <i className="flaticon-right"></i>
                             </Link>
                         </div>
                     </div>
-                    
+
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-services-item-box">
                             <div className="icon">
@@ -70,13 +70,13 @@ const Services = () => {
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                            
+
                             <Link to="/service-details" className="read-more-btn">
                                 Read More <i className="flaticon-right"></i>
                             </Link>
                         </div>
                     </div>
-                    
+
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-services-item-box">
                             <div className="icon">
@@ -88,13 +88,13 @@ const Services = () => {
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                            
+
                             <Link to="/service-details" className="read-more-btn">
                                 Read More <i className="flaticon-right"></i>
                             </Link>
                         </div>
                     </div>
-                    
+
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-services-item-box">
                             <div className="icon">
@@ -106,13 +106,13 @@ const Services = () => {
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                            
+
                             <Link to="/service-details" className="read-more-btn">
                                 Read More <i className="flaticon-right"></i>
                             </Link>
                         </div>
                     </div>
-                    
+
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-services-item-box">
                             <div className="icon">
@@ -124,7 +124,7 @@ const Services = () => {
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                            
+
                             <Link to="/service-details" className="read-more-btn">
                                 Read More <i className="flaticon-right"></i>
                             </Link>

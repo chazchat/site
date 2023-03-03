@@ -10,9 +10,9 @@ const AboutUs = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">
                         <div className="about-img">
-                            <img src={img8} alt="image" />
+                            <img src={img8} alt="" />
                             <div className="shape">
-                                <img src={shape1} alt="image" />
+                                <img src={shape1} alt="" />
                             </div>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ const AboutUs = () => {
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
 
                                 <Link to="/about-us-4" className="default-btn">
-                                    <i className="flaticon-right"></i> 
+                                    <i className="flaticon-right"></i>
                                     More About Us <span></span>
                                 </Link>
                             </div>

@@ -16,7 +16,7 @@ const OurServices = () => {
             <div className="container">
                 <div className="section-title">
                     <span className="sub-title">
-                        <img src={starIcon} alt="image" /> 
+                        <img src={starIcon} alt="" />
                         Our Services
                     </span>
                     <h2>We Offer Professional Solutions For Business</h2>
@@ -27,7 +27,7 @@ const OurServices = () => {
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-services-item">
                             <div className="icon">
-                                <img src={icon1} alt="image" />
+                                <img src={icon1} alt="" />
                             </div>
                             <h3>
                                 <Link to="/service-details">
@@ -35,17 +35,17 @@ const OurServices = () => {
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna doloresssit amet aliqua.</p>
-                                
+
                             <Link to="/service-details" className="default-btn">
-                                <i className="flaticon-right"></i> 
+                                <i className="flaticon-right"></i>
                                 Read More <span></span>
                             </Link>
 
                             <div className="shape1">
-                                <img src={shape1} alt="image" />
+                                <img src={shape1} alt="" />
                             </div>
                             <div className="shape2">
-                                <img src={shape2} alt="image" />
+                                <img src={shape2} alt="" />
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ const OurServices = () => {
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-services-item">
                             <div className="icon">
-                                <img src={icon2} alt="image" />
+                                <img src={icon2} alt="" />
                             </div>
                             <h3>
                                 <Link to="/service-details">
@@ -63,23 +63,23 @@ const OurServices = () => {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna doloresssit amet aliqua.</p>
 
                             <Link to="/service-details" className="default-btn">
-                                <i className="flaticon-right"></i> 
+                                <i className="flaticon-right"></i>
                                 Read More <span></span>
                             </Link>
-                            
+
                             <div className="shape1">
-                                <img src={shape1} alt="image" />
+                                <img src={shape1} alt="" />
                             </div>
                             <div className="shape2">
-                                <img src={shape2} alt="image" />
+                                <img src={shape2} alt="" />
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-services-item">
                             <div className="icon">
-                                <img src={icon3} alt="image" />
+                                <img src={icon3} alt="" />
                             </div>
                             <h3>
                                 <Link to="/service-details">
@@ -87,25 +87,25 @@ const OurServices = () => {
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna doloresssit amet aliqua.</p>
-                            
+
                             <Link to="/service-details" className="default-btn">
-                                <i className="flaticon-right"></i> 
+                                <i className="flaticon-right"></i>
                                 Read More <span></span>
                             </Link>
-                            
+
                             <div className="shape1">
-                                <img src={shape1} alt="image" />
+                                <img src={shape1} alt="" />
                             </div>
                             <div className="shape2">
-                                <img src={shape2} alt="image" />
+                                <img src={shape2} alt="" />
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-services-item">
                             <div className="icon">
-                                <img src={icon4} alt="image" />
+                                <img src={icon4} alt="" />
                             </div>
                             <h3>
                                 <Link to="/service-details">
@@ -113,25 +113,25 @@ const OurServices = () => {
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna doloresssit amet aliqua.</p>
-                            
+
                             <Link to="/service-details" className="default-btn">
-                                <i className="flaticon-right"></i> 
+                                <i className="flaticon-right"></i>
                                 Read More <span></span>
                             </Link>
-                            
+
                             <div className="shape1">
-                                <img src={shape1} alt="image" />
+                                <img src={shape1} alt="" />
                             </div>
                             <div className="shape2">
-                                <img src={shape2} alt="image" />
+                                <img src={shape2} alt="" />
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-services-item">
                             <div className="icon">
-                                <img src={icon5} alt="image" />
+                                <img src={icon5} alt="" />
                             </div>
                             <h3>
                                 <Link to="/service-details">
@@ -139,25 +139,25 @@ const OurServices = () => {
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna doloresssit amet aliqua.</p>
-                            
+
                             <Link to="/service-details" className="default-btn">
-                                <i className="flaticon-right"></i> 
+                                <i className="flaticon-right"></i>
                                 Read More <span></span>
                             </Link>
-                            
+
                             <div className="shape1">
-                                <img src={shape1} alt="image" />
+                                <img src={shape1} alt="" />
                             </div>
                             <div className="shape2">
-                                <img src={shape2} alt="image" />
+                                <img src={shape2} alt="" />
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-services-item">
                             <div className="icon">
-                                <img src={icon6} alt="image" />
+                                <img src={icon6} alt="" />
                             </div>
                             <h3>
                                 <Link to="/service-details">
@@ -165,17 +165,17 @@ const OurServices = () => {
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna doloresssit amet aliqua.</p>
-                            
+
                             <Link to="/service-details" className="default-btn">
-                                <i className="flaticon-right"></i> 
+                                <i className="flaticon-right"></i>
                                 Read More <span></span>
                             </Link>
-                            
+
                             <div className="shape1">
-                                <img src={shape1} alt="image" />
+                                <img src={shape1} alt="" />
                             </div>
                             <div className="shape2">
-                                <img src={shape2} alt="image" />
+                                <img src={shape2} alt="" />
                             </div>
                         </div>
                     </div>
@@ -183,7 +183,7 @@ const OurServices = () => {
                     <div className="col-lg-12 col-md-12">
                         <div className="load-more-btn text-center">
                             <Link to="/services" className="default-btn">
-                                <i className="flaticon-refresh"></i> 
+                                <i className="flaticon-refresh"></i>
                                 Load More <span></span>
                             </Link>
                         </div>
