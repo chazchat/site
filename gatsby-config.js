@@ -18,6 +18,7 @@ module.exports = {
         lang: 'zxx'
       }
     },
+    'gatsby-plugin-svgr',
     // {
     //   resolve: "gatsby-plugin-react-svg",
     //   options: {
