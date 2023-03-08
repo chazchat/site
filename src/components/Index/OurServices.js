@@ -15,11 +15,11 @@ const OurServices = () => {
             <div className="container">
                 <div className="section-title">
                     <span className="sub-title">
-                        <img src={starIcon} alt="banner" /> 
-                        Our Services
+                        <img src={starIcon} alt="banner" />
+                        Características
                     </span>
-                    <h2>We Offer Professional Solutions For Business</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <h2>¡Mira todo lo que ChatChaz tiene para ofrecer!</h2>
+                    <p>¡Aprende más sobre todas estas características y cómo ChatChaz puede ayudarte a construir relaciones duraderas con tus clientes! Haz clic en "Leer más" para obtener más información!</p>
                 </div>
 
                 <div className="row">
@@ -30,13 +30,13 @@ const OurServices = () => {
                             </div>
                             <h3>
                                 <Link to="/service-details">
-                                    Data Analytics
+                                    Website Live Chat
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                            
+                            <p>Simple y elegante chat en vivo para su sitio web. </p><p> ¡Mejore la experiencia del usuario en su sitio web!</p>
+
                             <Link to="/service-details" className="read-more-btn">
-                                Read More <i className="flaticon-right"></i>
+                                Leer más <i className="flaticon-right"></i>
                             </Link>
                         </div>
                     </div>
@@ -48,17 +48,17 @@ const OurServices = () => {
                             </div>
                             <h3>
                                 <Link to="/service-details">
-                                    AI & ML Development
+                                    Omnichannel inbox
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                            
+                            <p>Conecte cualquier canal y interactúe con sus clientes desde un solo lugar.</p><p> ¡Entregue una experiencia de cliente consistente en todos los canales!</p>
+
                             <Link to="/service-details" className="read-more-btn">
-                                Read More <i className="flaticon-right"></i>
+                                Leer más <i className="flaticon-right"></i>
                             </Link>
                         </div>
                     </div>
-                    
+
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-services-box">
                             <div className="icon">
@@ -66,17 +66,17 @@ const OurServices = () => {
                             </div>
                             <h3>
                                 <Link to="/service-details">
-                                    Data Science
+                                    Team collaboration
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                            
+                            <p>Colabore y administre conversaciones utilizando una bandeja de entrada compartida. </p><p> ¡Trabaje en equipo para resolver las consultas de sus clientes de manera más eficiente!</p>
+
                             <Link to="/service-details" className="read-more-btn">
-                                Read More <i className="flaticon-right"></i>
+                                Leer más <i className="flaticon-right"></i>
                             </Link>
                         </div>
                     </div>
-                    
+
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-services-box">
                             <div className="icon">
@@ -84,17 +84,17 @@ const OurServices = () => {
                             </div>
                             <h3>
                                 <Link to="/service-details">
-                                    Predictive Analytics
+                                Chatbots
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                            
+                            <p>Integre fácilmente con plataformas de chatbots como Rasa o Dialogflow para reducir la carga de trabajo de sus agentes. </p><p> ¡Brinde respuestas rápidas y precisas a sus clientes utilizando chatbots!</p>
+
                             <Link to="/service-details" className="read-more-btn">
-                                Read More <i className="flaticon-right"></i>
+                                Leer más <i className="flaticon-right"></i>
                             </Link>
                         </div>
                     </div>
-                    
+
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-services-box">
                             <div className="icon">
@@ -102,17 +102,17 @@ const OurServices = () => {
                             </div>
                             <h3>
                                 <Link to="/service-details">
-                                    Software Development
+                                Automations
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                            
+                            <p>Evite tareas repetitivas automatizando sus flujos de trabajo y haga funcionar su negocio en piloto automático. </p><p> ¡Ahorre tiempo y recursos automatizando sus procesos de trabajo! Mobile apps</p>
+
                             <Link to="/service-details" className="read-more-btn">
-                                Read More <i className="flaticon-right"></i>
+                                Leer más <i className="flaticon-right"></i>
                             </Link>
                         </div>
                     </div>
-                    
+
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-services-box">
                             <div className="icon">
@@ -120,13 +120,13 @@ const OurServices = () => {
                             </div>
                             <h3>
                                 <Link to="/service-details">
-                                    Elastic Solutions
+                                Pre-Chat Form
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                            
+                            <p>Agregue un formulario de chat personalizable antes de que un usuario inicie un chat.</p><p> ¡Capture información útil de sus clientes para mejorar la calidad del servicio de atención al cliente!</p>
+
                             <Link to="/service-details" className="read-more-btn">
-                                Read More <i className="flaticon-right"></i>
+                                Leer más <i className="flaticon-right"></i>
                             </Link>
                         </div>
                     </div>
@@ -134,7 +134,7 @@ const OurServices = () => {
                     <div className="col-lg-12 col-md-12">
                         <div className="load-more-btn text-center">
                             <Link to="/services" className="default-btn">
-                                <i className="flaticon-refresh"></i> Load More <span></span>
+                                <i className="flaticon-refresh"></i> Aprender más <span></span>
                             </Link>
                         </div>
                     </div>
